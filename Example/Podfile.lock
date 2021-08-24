@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - HZChartViews (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - HZChartViews (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  HZChartViews:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  HZChartViews: 664fd57ba777141449e0245de7eb0a16e14e14c9
+
+PODFILE CHECKSUM: ef6dbc41b11b681ff5de1bdee269138f60cbc78e
+
+COCOAPODS: 1.10.2

@@ -1,0 +1,6 @@
+framework module HZChartViews {
+  umbrella header "HZChartViews-umbrella.h"
+
+  export *
+  module * { export * }
+}
