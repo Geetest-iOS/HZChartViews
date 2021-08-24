@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HZChartViews'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'HZChartViews'
 
 # This description is used to generate tags and improve search results.
@@ -37,6 +37,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'MapKit','Network'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
